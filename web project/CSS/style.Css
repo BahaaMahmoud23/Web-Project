@@ -1,0 +1,86 @@
+*{
+    background-color: rgb(14, 27, 14);
+    margin : 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.about_page{
+   color: aliceblue;
+   overflow: hidden;
+
+}
+
+.heading h1{
+
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 90%;
+    margin:100px auto;
+}
+
+.about_content{
+    flex: 1;
+     width: 600px;
+     margin: 0px 25px;
+
+}
+
+.about_content h2{
+   font-size: 40px;
+   margin-bottom: 20px;
+   color: rgb(227, 245, 231);
+}
+
+.about_content p{
+   font-size: 25px;
+   line-height: 1.5;
+   margin-bottom: 40px;
+   margin-left: 25px;
+   color: rgba(193, 222, 191, 0.989);
+
+}
+
+.about_content button{
+
+    display: inline-block;
+    background-color: white;
+    coLor : rgb(36, 67, 36) ;
+    padding:12px 24px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-style: oblique;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.about_content button:hover{
+
+    background-color: rgb(52, 122, 52);
+    transform: scale(1.1);
+}
+
+.plaza_image {
+    width: 600px; 
+    margin:auto;
+    
+}
+
+img{
+
+    width : 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
